@@ -965,7 +965,6 @@
   <block id="614a7784cfcb44e896f7945455f42f95" category="paragraph">Vários recursos do ONTAP não são suportados com o ONTAP Select. Na maioria dos casos, esses recursos exigem hardware especial que não está disponível no ambiente virtualizado do ONTAP Select.</block>
   <block id="7259cd6e0f46eebf9079f25f465a8c63" category="list-text">Proteção autônoma contra ransomware (ARP)</block>
   <block id="a847af8ec24fb4acb1f1194041f1508f" category="list-text">Cluster IPspace qualquer modificação no Cluster IPspace, incluindo a adição ou remoção de portas, LANs virtuais (VLANs) ou grupos de agregação de links não é suportada.</block>
-  <block id="37730150d6378b2a0b04f20595d2d65a" category="list-text">ESXi 8,0 U3</block>
   <block id="e400270296a47b2c68bd6e799fac399d" category="list-text">Fibre Channel e Fibre Channel over Ethernet não são compatíveis.</block>
   <block id="4980ffa00c517c7cc63e35e9bb2badc8" category="list-text">O monitoramento tradicional de integridade usado com uma implantação de ONTAP baseada em hardware é específico dos componentes de hardware subjacentes. Devido ao ambiente virtualizado usado com o ONTAP Select, os monitores de integridade não estão ativos.</block>
   <block id="f7ee707e6ddfc29288dbbbdf8cecd146" category="list-text">Grupos de interface grupos de interface não são suportados.</block>
@@ -2080,7 +2079,6 @@
   <block id="f371e1e74365e433f105f30c886225bf" category="inline-link-macro">Notas de versão do ONTAP Select 9.14.1</block>
   <block id="2dbcb54e47dfd070743afb26077cdc91" category="list-text">Se você estiver executando uma versão do ONTAP Select Deploy 9.14.1 menor que 9.14.1P2, você deve atualizar para o ONTAP Select Deploy 9.14.1P2 o mais rápido possível. Para obter mais informações, consulte <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>.</block>
   <block id="aacb1ad8ec74092a13074108a4e20c02" category="list-text">Suporte aprimorado ao VMware ESXi</block>
-  <block id="78fb396e8c541b492002e6b94963fe83" category="list-text">O ONTAP Select 9.14.1 inclui suporte para VMware ESXi 8,0.2.</block>
   <block id="1e2be71e8b4858c0b3e832cba35731d1" category="section-title">ONTAP Select 9.13.1</block>
   <block id="cdbcb12eafeb6cc1f6a058e9c52a7f8d" category="paragraph">O ONTAP Select 9.13.1 inclui vários novos recursos e melhorias.</block>
   <block id="58c277c116ff23ffb9879debb95b4968" category="list-text">Suporte para NVMe sobre TCP</block>
@@ -3418,10 +3416,6 @@
   <block id="412c286ae37ff7a40b56dd84c3bf196c" category="section-title">Requisitos de hardware e armazenamento</block>
   <block id="c9dd95ac8795512f2d676118ba8def1a" category="paragraph">As funcionalidades de expansão e contração do cluster são restritas das seguintes maneiras:</block>
   <block id="03a645906298706d76817495f4d8708a" category="list-text">O suporte é limitado aos clusters criados em hosts de hypervisor ESX. As seguintes versões do ESX são compatíveis com o ONTAP Select 9.15.1:</block>
-  <block id="ec65581eeb2dfa95316cf6a00d2ff593" category="list-text">ESXi 8.0U2</block>
-  <block id="43629b681eab8f23e6624067ec8d1fde" category="list-text">ESXi 8.0U1</block>
-  <block id="200d1894c9fd6ae53ee1224b58c879d1" category="list-text">ESXi 8,0GA</block>
-  <block id="83796d186e6e678e53d65b677d9068ca" category="list-text">ESXi 7.0U3</block>
   <block id="ef179550c4eb9da6a82350b32d807ed9" category="list-text">ESXi 7,0</block>
   <block id="2b2045e987020e440e1d72497530fdf6" category="list-text">A expansão só é possível de clusters de seis nós para clusters de oito nós.</block>
   <block id="39503511d67e0af8ddd6049c24f164f7" category="list-text">A contração só é possível de clusters de oito nós para clusters de seis nós.</block>
@@ -3724,4 +3718,11 @@
   <block id="1c5ffa58ac07641f5cec5616c07b2ba2" category="sidebar">Adicione imagens ONTAP Select</block>
   <block id="0a15f7ba73868a32304fdf52855463c9" category="sidebar">Remover imagens ONTAP Select</block>
   <block id="afc9d68a1be701598b5ef94dc0be2844" category="sidebar">Recuperar o Deploy para um cluster de dois nós</block>
+  <block id="b374e4bbc5d3bd65f35605cc784ed685" category="list-text">O ONTAP Select 9.14.1 inclui suporte para VMware ESXi 8,0 U2.</block>
+  <block id="5add73dc063e8420f47ce30e8a544f34" category="list-text">VMware ESXi 8,0 U3 (disponível para ONTAP 9.15.1P4 ou qualquer versão de patch disponível posterior)</block>
+  <block id="03c073298ba0e42c4beebe1f4a065d90" category="list-text">ESXi 8,0 U3 (disponível para ONTAP 9.15.1P4 ou qualquer versão de patch disponível posteriormente)</block>
+  <block id="3a13e6fcb6840db51e3e181c41dff37b" category="list-text">ESXi 8,0 U2</block>
+  <block id="084ef93eebe5fd52d657e556b4305619" category="list-text">ESXi 8,0 U1</block>
+  <block id="4ec8056f2f2bfb0ffa0104fc43edb1da" category="list-text">ESXi 8,0GA</block>
+  <block id="8d224631a5a87c64caecc71fee6fb612" category="list-text">ESXi 7,0 U3</block>
 </blocks>

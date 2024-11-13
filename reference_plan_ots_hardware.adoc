@@ -42,6 +42,7 @@ O ONTAP Select pode ser implantado nos seguintes hipervisores:
 * VMware ESXi 7,0 GA (versão 15843807 ou superior), incluindo 7,0 U1, U2 e U3C
 * VMware ESXi 8,0 GA (compilação 20513097)
 * VMware ESXi 8,0 U1 (compilação 21495797)
+* VMware ESXi 8,0 U3 (disponível para ONTAP 9.15.1P4 ou qualquer versão de patch disponível posterior)
 
 
 

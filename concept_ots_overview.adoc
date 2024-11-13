@@ -87,7 +87,6 @@ Vários recursos do ONTAP não são suportados com o ONTAP Select. Na maioria do
 
 * Proteção autônoma contra ransomware (ARP)
 * Cluster IPspace qualquer modificação no Cluster IPspace, incluindo a adição ou remoção de portas, LANs virtuais (VLANs) ou grupos de agregação de links não é suportada.
-* ESXi 8,0 U3
 * Fibre Channel e Fibre Channel over Ethernet não são compatíveis.
 * O monitoramento tradicional de integridade usado com uma implantação de ONTAP baseada em hardware é específico dos componentes de hardware subjacentes. Devido ao ambiente virtualizado usado com o ONTAP Select, os monitores de integridade não estão ativos.
 * Grupos de interface grupos de interface não são suportados.
