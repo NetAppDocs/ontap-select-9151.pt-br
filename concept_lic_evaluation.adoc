@@ -16,6 +16,15 @@ summary: Você pode usar uma licença de avaliação se quiser avaliar o ONTAP S
 [role="lead"]
 Você pode usar uma licença de avaliação se quiser avaliar o ONTAP Select antes de tomar a decisão de comprar. A licença de avaliação está incluída no utilitário de administração ONTAP Select Deploy e é aplicada automaticamente a cada nó do ONTAP Select como parte de uma implantação de avaliação.
 
+[NOTE]
+====
+Para baixar o utilitário de administração ONTAP Select Deploy, você precisa do seguinte:
+
+* Uma conta do site de suporte da NetApp registrada. Se você não tiver uma conta, https://mysupport.netapp.com/site/user/registration["Registo do utilizador"^] consulte .
+* Para https://mysupport.netapp.com/site/downloads/evaluation/ontap-select["Aceite o contrato de licença do utilizador final"^] uma implantação do ONTAP Select com uma licença de avaliação.
+
+
+====
 
 
 == Caraterísticas de licenciamento

@@ -22,6 +22,9 @@ Você precisa instalar o utilitário de administração ONTAP Select Deploy e us
 
 Pode transferir o pacote ONTAP Select a partir do site de suporte da NetApp.
 
+.Antes de começar
+https://mysupport.netapp.com/site/user/registration["Você tem uma conta registrada no site de suporte da NetApp"^].
+
 .Sobre esta tarefa
 O utilitário de administração ONTAP Select Deploy é empacotado como uma máquina virtual (VM) baseada no padrão OVF (Open Virtualization Format). O único arquivo compactado tem o sufixo `ova`. A VM fornece o servidor de implantação e as imagens de instalação para nós do ONTAP Select.
 
