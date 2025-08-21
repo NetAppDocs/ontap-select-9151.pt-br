@@ -52,3 +52,7 @@ Você pode atualizar um cluster de avaliação do ONTAP Select para usar uma lic
 
 
 Consulte link:task_adm_licenses.html["Converter uma licença de avaliação em uma licença de produção"] para obter mais informações.
+
+.Informações relacionadas
+* link:concept_lic_production.html["Saiba mais sobre licenças para implantações de produção"]
+

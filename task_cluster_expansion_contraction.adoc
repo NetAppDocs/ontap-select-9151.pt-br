@@ -14,9 +14,20 @@ summary: A partir do ONTAP Select 9.15.1, é possível aumentar o tamanho de um 
 
 
 [role="lead"]
-A partir do ONTAP Select 9.15.1, é possível aumentar o tamanho de um cluster existente de seis para oito nós e diminuir o tamanho do cluster de oito para seis nós. Não há suporte para outros cenários de expansão ou contração do cluster.
+A partir do ONTAP Select 9.15.1, é possível aumentar o tamanho de um cluster existente de seis para oito nós e diminuir o tamanho do cluster de oito para seis nós.
 
-O procedimento é iniciado a partir do ONTAP Select Deploy usando a interface CLI, API ou web.
+As seguintes expansões e contrações de cluster não são suportadas:
+
+* Expansões de clusters de um, dois ou quatro nós para clusters de seis ou oito nós.
+* Contrações de aglomerados de seis ou oito nós para aglomerados de um, dois ou quatro nós.
+
+
+[NOTE]
+====
+Para alterar o número de nós em um cluster para um tamanho que não é suportado pela expansão ou contração do cluster, você precisa executar as seguintes tarefas: . Implante um novo cluster de vários nós usando o link:task_cli_deploy_cluster.html["CLI"] ou o link:task_deploy_cluster.html["interface da web"] fornecido com o utilitário de administração ONTAP Select Deploy. . Se aplicável, migre os dados para o novo cluster usando link:https://docs.netapp.com/us-en/ontap/data-protection/snapmirror-disaster-recovery-concept.html["Replicação SnapMirror"^] .
+
+====
+Você inicia os procedimentos de expansão e contração do cluster no ONTAP Select Deploy usando a CLI, a API ou a interface da web.
 
 
 
@@ -24,9 +35,9 @@ O procedimento é iniciado a partir do ONTAP Select Deploy usando a interface CL
 
 As funcionalidades de expansão e contração do cluster são restritas das seguintes maneiras:
 
-* O suporte é limitado aos clusters criados em hosts de hypervisor ESX. As seguintes versões do ESX são compatíveis com o ONTAP Select 9.15.1:
+* O suporte é limitado a clusters criados em hosts de hipervisor ESX. As seguintes versões do ESX são compatíveis com o ONTAP Select 9.15.1 e posteriores:
 +
-** ESXi 8,0 U3 (disponível para ONTAP 9.15.1P4 ou qualquer versão de patch disponível posteriormente)
+** ESXi 8.0 U3
 ** ESXi 8,0 U2
 ** ESXi 8,0 U1
 ** ESXi 8,0GA
@@ -34,8 +45,6 @@ As funcionalidades de expansão e contração do cluster são restritas das segu
 ** ESXi 7,0
 
 
-* A expansão só é possível de clusters de seis nós para clusters de oito nós.
-* A contração só é possível de clusters de oito nós para clusters de seis nós.
 
 
 
@@ -48,7 +57,7 @@ Você pode aumentar o tamanho de um cluster existente de seis nós para um clust
 Em preparação para o procedimento de expansão do cluster, novos hosts ESX são adicionados ao inventário e os detalhes dos novos nós são atribuídos. Antes de iniciar o processo de expansão do cluster, uma verificação prévia da rede verifica a rede interna selecionada.
 
 .Antes de começar
-* Ao implantar um cluster de vários nós, você deve estar familiarizado com o link:https://docs.netapp.com/us-en/ontap-select/task_adm_connectivity.html["verificador de conetividade de rede"].
+* Ao implantar um cluster de vários nós, você deve estar familiarizado com o verificador de conectividade de rede. Você pode executar o verificador de conectividade de rede usando o link:task_adm_connectivity.html["interface da web"] ou o link:task_cli_connectivity.html["CLI"] .
 * Verifique se você tem os detalhes da licença para os novos nós.
 
 
