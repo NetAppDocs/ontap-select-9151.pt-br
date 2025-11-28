@@ -97,6 +97,7 @@ Vários recursos do ONTAP não são suportados com o ONTAP Select. Na maioria do
 * Processadores de serviço
 * Migração para SVM
 * SnapLock Compliance
+* Sincronização ativa do SnapMirror
 * VMware HCX
 
 
