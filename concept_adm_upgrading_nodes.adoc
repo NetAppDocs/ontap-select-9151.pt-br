@@ -25,14 +25,14 @@ CAUTION: Você não pode usar o utilitário de administração implantar para ex
 
 Em um alto nível, você deve usar as etapas a seguir para atualizar um nó ONTAP Select existente.
 
-.Passos
-. Acesse a link:https://mysupport.netapp.com/site/downloads/["Downloads do site de suporte da NetApp"^] página.
-. Deslize para baixo e selecione *ONTAP Select Image*.
-. Selecione a versão desejada da imagem de instalação.
-. Reveja o Contrato de Licença de Utilizador final (EULA) e selecione *Accept & continue* (aceitar e continuar).
-. Selecione e faça o download do pacote *ONTAP Select Image Upgrade* apropriado. Responda a todas as solicitações conforme necessário.
+. Acesse a página de downloads no site de suporte da NetApp.
 +
-Consulte a link:reference_release_notes.html["notas de lançamento"] para obter informações adicionais e quaisquer procedimentos necessários antes de atualizar um nó ONTAP Select.
+https://mysupport.netapp.com/site/downloads["Downloads de suporte da NetApp"^]
+
+. Clique em *ONTAP Select Node Upgrade*.
+. Selecione e faça o download da imagem de upgrade apropriada respondendo a todas as solicitações conforme necessário.
++
+Consulte as notas de versão para obter informações adicionais e quaisquer procedimentos necessários antes de atualizar um nó ONTAP Select.
 
 . Atualize o nó ONTAP Select usando os procedimentos de atualização padrão do ONTAP com o arquivo de atualização do ONTAP Select. Para obter informações sobre caminhos de atualização suportados, consulte o link:https://docs.netapp.com/us-en/ontap/upgrade/concept_upgrade_paths.html["Caminhos de atualização do ONTAP compatíveis"^].
 
@@ -54,4 +54,5 @@ O ONTAP Select 9,8 está inicialmente instalado:: Não é possível reverter par
 VMXNet3 é o driver de rede padrão incluído com novas implantações de cluster no VMware ESXi. Se você atualizar um nó ONTAP Select existente executando o ONTAP Select 9,4 ou anterior, o driver de rede não será atualizado automaticamente. Você deve atualizar manualmente para VMXNET3. Você deve entrar em Contato com o suporte da NetApp para obter assistência com a atualização.
 
 .Informações relacionadas
-link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["Visão geral da atualização do ONTAP"^]
+* link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["Visão geral da atualização do ONTAP"^]
+
