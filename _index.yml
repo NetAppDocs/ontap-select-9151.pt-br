@@ -1,5 +1,14 @@
 ---
 indexpage:
+  title: ONTAP Select 9.15.1
+  summary: O NetApp ONTAP Select é um dispositivo de storage definido por software
+    que você pode implantar em uma variedade de servidores de hardware comuns que
+    executam o hipervisor VMware ESXi ou Kernel-Based Virtual Machine (KVM). Ele oferece
+    a agilidade de que você precisa para criar uma infraestrutura de nuvem privada
+    flexível e dimensionável. Este site contém a documentação do ONTAP Select 9.15.1.
+  keywords: ontap select, 9151, concept, reference, task, documentation, release notes,
+    install, deploy, upgrading, workflow, migrate, security, admin, operation, compare,
+    production, platforms
   lead: O NetApp ONTAP Select é um dispositivo de storage definido por software que
     você pode implantar em uma variedade de servidores de hardware comuns que executam
     o hipervisor VMware ESXi ou Kernel-Based Virtual Machine (KVM). Ele oferece a
