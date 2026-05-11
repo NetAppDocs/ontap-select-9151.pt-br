@@ -28,6 +28,9 @@ Os seguintes recursos estão incluídos no ONTAP Select e licenciados por padrã
 * CIFS
 * Deduplicação e compactação
 * FlexCache
++
+Existem limitações no suporte para FlexCache write-back com ONTAP Select. Para obter mais informações, consulte link:https://docs.netapp.com/us-en/ontap-select/concept_ots_overview.html#flexcache-write-back-with-ontap-select["FlexCache write-back com ONTAP Select"^].
+
 * FlexClone
 * ISCSI
 * NDMP
